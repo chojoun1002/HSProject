@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:title="Menu">
+            <menu>
+                <item
+                    android:id="@+id/nav_fast_sol"
+                    android:icon="@drawable/hammer"
+                    android:title="빠른해결" />
+                <item
+                    android:id="@+id/nav_menual"
+                    android:icon="@drawable/document"
+                    android:title="매뉴얼" />
+            </menu>
+        </item>
+        <!-- <item
+             android:id="@+id/nav_slideshow"
+             android:icon="@drawable/ic_menu_slideshow"
+             android:title="Slideshow" />
+         <item
+             android:id="@+id/nav_manage"
+             android:icon="@drawable/ic_menu_manage"
+             android:title="Tools" />-->
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+
+</menu>
