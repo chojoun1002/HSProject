@@ -25,6 +25,8 @@ import java.util.Random;
 /**
  * Created by user on 2015-12-24.
  *
+ *  [물류정보팀 조준열], [온라인팀 손동현], [온라인팀 허용]
+ *
  *  리스트뷰에 보여주는 데이터 바인딩 부분을 정의.
  */
 public class ListViewAdapter extends BaseAdapter {
@@ -140,7 +142,7 @@ public class ListViewAdapter extends BaseAdapter {
         public TextView mCount;
     }
 
-    //글라이드 둥글게 처리
+    //글라이드 이미지 둥글게 처리 [온라인팀 허용]
     public static class CircleTransform extends BitmapTransformation {
         public CircleTransform(Context context) {
             super(context);

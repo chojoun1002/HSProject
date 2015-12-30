@@ -5,6 +5,10 @@ import java.util.Comparator;
 
 /**
  * Created by user on 2015-12-22.
+ *
+ * [온라인팀 손동현]
+ *
+ * 리스트뷰 데이터 바인딩을 위하여 변수 정의
  */
 public class ListData {
 

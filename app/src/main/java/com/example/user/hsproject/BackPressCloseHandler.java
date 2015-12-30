@@ -6,8 +6,10 @@ import android.widget.Toast;
 /**
  * Created by 20151047 on 2015-12-28.
  *
- * Back버튼 2번 눌렀을 경우 발생하는 이벤트 정의.
- * 2번 입력시 종료되게 처리함.
+ * [온라인팀 손동현]
+ *
+ * Back버튼 2번 눌렀을 경우 발생하는 이벤트 정의. 2번 입력시 종료되게 처리함.
+ *
  */
 public class BackPressCloseHandler {
 
@@ -18,14 +20,6 @@ public class BackPressCloseHandler {
     public BackPressCloseHandler(Activity context){
         this.activity = context;
     }
-
-   /* public void onBackBtnPressed(){
-        if(System.currentTimeMillis() > backBtnPressTime + 2000){
-            backBtnPressTime = System.currentTimeMillis();
-            showToast();
-            toast.cancel();
-        }
-    }*/
 
     public void onBackBtnPressed() {
         if (System.currentTimeMillis() > backBtnPressTime + 2000) {

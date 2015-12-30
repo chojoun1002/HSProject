@@ -4,6 +4,9 @@ package com.example.user.hsproject;
  * Created by user on 2015-12-22.
  *
  * 데이터 통신시 필요한 내용의 컬럼을 정의.
+ *
+ * [온라인팀 손동현]
+ *
  * CONTEXT_NO, SUBJECT, REG_DT, VIEW_COUNT, THUMB_URL
  */
 public class VoData {
@@ -12,7 +15,7 @@ public class VoData {
     private String SUBJECT = "";
     private String REG_DT = "";
     private String VIEW_COUNT = "";
-    private  String THUMB_URL = "";
+    private String THUMB_URL = "";
 
     public String getSUBJECT() {
         return SUBJECT;

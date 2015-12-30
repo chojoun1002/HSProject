@@ -10,7 +10,10 @@ import android.view.MotionEvent;
 /**
  * Created by user on 2015-12-24.
  *
+ * [물류정보팀 조준열]
+ *
  * 뷰페이저의 횡 스크롤을 막기 위한 커스텀 뷰테이저.
+ *
  */
 public class CustomViewPager extends ViewPager {
 
